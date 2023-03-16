@@ -1,0 +1,48 @@
+:root {
+  font-family: sans-serif;
+}
+
+.container1 {
+  display: grid;
+  width: 400px;
+  height: 400px;
+  grid-template-columns: 125px 150px 125px;
+  grid-template-rows: 125px 150px 125px;
+  background-color: blue;
+}
+
+.grid1 {
+  background-color: yellow;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.container2 {
+  display: grid;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.grid2 {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+}
+
+.container3 {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid3 {
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+}
