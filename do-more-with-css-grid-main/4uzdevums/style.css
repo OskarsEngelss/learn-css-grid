@@ -6,8 +6,8 @@
   Kopā ir 2 rindas un tās aizņem tieši tik daudz vietas,
   cik garākajam tekstam vajadzīgs.*/
   display: grid;
-  grid-template-columns: 200px 100px minmax(400px, auto);
-  grid-template-rows: 132px 30px;
+  grid-template-columns: max-content min-content minmax(400px, auto);
+  grid-template-rows: repeat(2, auto);
 
 
   gap: 10px;
